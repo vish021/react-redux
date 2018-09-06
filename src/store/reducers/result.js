@@ -1,6 +1,6 @@
 //NOTE: all the reducers are at the end merged into a global reducer. Hoever, you can not access other reducer's state here.
 // state here refers to local not GLOBAL :(   They hould be passed via Component as they're connected to global store 
-import * as actionTypes from '../actions';
+import * as actionTypes from '../actions/actionsTypes';
 
 const initialState = {
     results: []
